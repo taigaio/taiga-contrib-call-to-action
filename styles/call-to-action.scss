@@ -1,0 +1,44 @@
+$call-to-action-text: #527402;
+$call-to-action-close: #ff8282;
+$call-to-action-border: #d2d2d2;
+$call-to-action-button-hover: #9dce0a;
+$call-to-action-button-hover-text: #fff;
+
+call-to-action {
+    position: relative;
+    display: flex;
+    background: url("./images/background.svg");
+    height: 176px;
+    width: 960px;
+    color: $call-to-action-text;
+    border: 1px solid $call-to-action-border;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+        .button-green {
+            background: $call-to-action-button-hover;
+            color: $call-to-action-button-hover-text;
+        }
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            text-align: center;
+            margin: 5px;
+            b {
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+        }
+    }
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        fill: $call-to-action-close;
+        cursor: pointer;
+    }
+}
