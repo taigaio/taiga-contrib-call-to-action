@@ -71,13 +71,13 @@ CallToActionDirective = ($compile, $config, $translate, $location, $analytics) -
             return locales["en"][text]
 
     link = ($scope, $el, $attrs) ->
-        if $scope.user
-            return
-
-        if getCookie('callToAction') == '1'
-            return
-
         $scope.$on "loader:end", () ->
+            if $scope.user
+                return
+
+            if getCookie('callToAction') == '1'
+                return
+
             $scope.$apply () ->
                 $scope.translate = translate.bind(this, $translate.use())
                 callToActionBox = $compile($(template))($scope)
