@@ -17,7 +17,7 @@
   "homepage": "https://github.com/taigaio/taiga-contrib-call-to-action",
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "node-sass": "^3.4.2"
+    "node-sass": "^4.14.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
