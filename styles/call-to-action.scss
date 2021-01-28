@@ -1,25 +1,19 @@
-$call-to-action-text: #527402;
+$call-to-action-text: #008aa8;
 $call-to-action-close: #ff8282;
 $call-to-action-border: #d2d2d2;
-$call-to-action-button-hover: #9dce0a;
-$call-to-action-button-hover-text: #fff;
 
 call-to-action {
-    position: relative;
-    display: flex;
-    background: url("./images/background.svg");
-    height: 176px;
-    width: 960px;
-    color: $call-to-action-text;
+    background: url("./images/background.jpg");
+    background-size: cover;
+    background-position: top left;
     border: 1px solid $call-to-action-border;
+    color: $call-to-action-text;
+    display: flex;
+    height: 100%;
     justify-content: center;
+    max-height: 195px;
+    position: relative;
     cursor: pointer;
-    &:hover {
-        .button-green {
-            background: $call-to-action-button-hover;
-            color: $call-to-action-button-hover-text;
-        }
-    }
     .center {
         display: flex;
         flex-direction: column;

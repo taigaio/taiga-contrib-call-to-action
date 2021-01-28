@@ -41,7 +41,7 @@ template = """
 
     <div class="center">
         <p ng-bind-html='translate("BEGIN_PROJECT")'></p>
-        <a class="register button-green">{{translate("REGISTER")}}</a>
+        <a class="register btn-small" variant="primary">{{translate("REGISTER")}}</a>
     </div>
 </call-to-action>
 """
