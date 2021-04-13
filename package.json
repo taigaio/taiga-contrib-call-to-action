@@ -10,7 +10,7 @@
     "taiga"
   ],
   "author": "Taiga Agile LLC",
-  "license": "AGPL-3.0",
+  "license": "MIT-0",
   "bugs": {
     "url": "https://github.com/taigaio/taiga-contrib-call-to-action/issues"
   },
