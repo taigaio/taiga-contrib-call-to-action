@@ -9,8 +9,8 @@
   "keywords": [
     "taiga"
   ],
-  "author": "Taiga Agile LLC",
-  "license": "MIT-0",
+  "author": "Kaleidos Ventures SL",
+  "license": "MPL-2",
   "bugs": {
     "url": "https://github.com/taigaio/taiga-contrib-call-to-action/issues"
   },
