@@ -4,6 +4,6 @@
     "description": "Show call to action message.",
     "type": "misc",
     "module": "callToActionPlugin",
-    "css": "/plugins/call-to-action/call-to-action.css",
-    "js": "/plugins/call-to-action/call-to-action.js"
+    "css": "plugins/call-to-action/call-to-action.css",
+    "js": "plugins/call-to-action/call-to-action.js"
 }

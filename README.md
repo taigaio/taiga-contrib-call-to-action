@@ -18,14 +18,14 @@ Download in your `dist/plugins/` directory of Taiga front the `taiga-contrib-cal
   svn export "https://github.com/kaleidos-ventures/taiga-contrib-call-to-action/branches/stable/dist"  "call-to-action"
 ```
 
-Include in your `dist/conf.json` in `privacyPolicyUrl` the url to the information of your Privacy Policy and in the `contribPlugins` list the value `"/plugins/call-to-action/call-to-action.json"`:
+Include in your `dist/conf.json` in `privacyPolicyUrl` the url to the information of your Privacy Policy and in the `contribPlugins` list the value `"plugins/call-to-action/call-to-action.json"`:
 
 ```json
 ...
     "privacyPolicyUrl": "http://example.com/privacy-policy.html"
     "contribPlugins": [
         (...)
-        "/plugins/call-to-action/call-to-action.json"
+        "plugins/call-to-action/call-to-action.json"
     ]
 ...
 ```
@@ -43,14 +43,14 @@ After clone the repo link `dist` in `taiga-front` plugins directory:
   ln -s ../../../taiga-contrib-call-to-action/dist call-to-action
 ```
 
-Include in your `dist/conf.json` in `privacyPolicyUrl` the url to the information of your Privacy Policy and in the `contribPlugins` list the value `"/plugins/call-to-action/call-to-action.json"`:
+Include in your `dist/conf.json` in `privacyPolicyUrl` the url to the information of your Privacy Policy and in the `contribPlugins` list the value `"plugins/call-to-action/call-to-action.json"`:
 
 ```json
 ...
     "privacyPolicyUrl": "http://example.com/privacy-policy.html"
     "contribPlugins": [
         (...)
-        "/plugins/call-to-action/call-to-action.json"
+        "plugins/call-to-action/call-to-action.json"
     ]
 ...
 ```
