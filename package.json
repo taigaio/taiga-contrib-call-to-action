@@ -1,6 +1,6 @@
 {
   "name": "taiga-contrib-call-to-action",
-  "version": "6.4.0",
+  "version": "6.5.0",
   "description": "Taiga contrib plugin to show the call to action on project detail",
   "repository": {
     "type": "git",
