@@ -1,5 +1,4 @@
-Taiga Contrib Call To Action
-============================
+# Taiga Contrib Call To Action
 
 &gt; **READ THIS FIRST!**: We recently announced Taiga plans for the future and they greatly affect how we manage this repository and the current Taiga 6 release. Check it [here](https://blog.taiga.io/announcing_taiganext.html).
 
@@ -62,6 +61,7 @@ In the plugin source dir `taiga-contrib-call-to-action` run
 ```bash
   npm install
 ```
+
 and use:
 
 - `gulp` to regenerate the source and watch for changes.
@@ -96,7 +96,7 @@ If you want to be up to date about announcements of releases, important changes 
 
 ## Contribute to Taiga
 
-There are many different ways to contribute to Taiga's platform, from patches, to documentation and UI enhancements, just find the one that best fits with your skills. Check out our detailed [contribution guide](https://resources.taiga.io/extend/how-can-i-contribute/)
+There are many different ways to contribute to Taiga's platform, from patches, to documentation and UI enhancements, just find the one that best fits with your skills. Check out our detailed [contribution guide](https://community.taiga.io/t/how-can-i-contribute/159)
 
 ## Code of Conduct
 
