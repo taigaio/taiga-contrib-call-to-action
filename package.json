@@ -4,7 +4,7 @@
   "description": "Taiga contrib plugin to show the call to action on project detail",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaleidos-ventures/taiga-contrib-call-to-action.git"
+    "url": "https://github.com/taigaio/taiga-contrib-call-to-action.git"
   },
   "keywords": [
     "taiga"
@@ -12,9 +12,9 @@
   "author": "Kaleidos Ventures SL",
   "license": "MPL-2",
   "bugs": {
-    "url": "https://github.com/kaleidos-ventures/taiga-contrib-call-to-action/issues"
+    "url": "https://github.com/taigaio/taiga-contrib-call-to-action/issues"
   },
-  "homepage": "https://github.com/kaleidos-ventures/taiga-contrib-call-to-action",
+  "homepage": "https://github.com/taigaio/taiga-contrib-call-to-action",
   "dependencies": {
     "coffeescript": "^1.10.0",
     "node-sass": "8.0.0"
